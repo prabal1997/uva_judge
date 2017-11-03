@@ -54,8 +54,8 @@ int main() {
 	/*
 	. The following diagram shows that each 'index' of a
     . digit's 'config' array-element represents the following components of the LCD:
-	.	 0  
-	. 	 - 
+	.    0  
+	.    - 
 	. 1 |3| 2
 	.    -
 	. 4 |6| 5 
