@@ -55,9 +55,9 @@ int main() {
                one_seq += 1*exp_val;
           
                //check divisibility
-               uint64_t temp_val = give_mod(give_ten_power(MAX_LEN/2), counter/MAX_LEN, input_num);
-               temp_val *= temp_val;
+               uint64_t temp_val = give_mod(give_ten_power(MAX_LEN/2), counter/MAX_LEN, input_num); temp_val *= temp_val;
                temp_val = temp_val%input_num;
+               
                uint64_t mod_val = (one_seq%input_num)*temp_val;
                mod_val = mod_val%input_num;
                          
